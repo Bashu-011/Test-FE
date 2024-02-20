@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>My Form</title>
+</head>
+<body>
+  <h1 id="title">Bashu's Form</h1>
+  <p id="description">This is Bashu's Form Page. Welcome!</p>
+  <div id="parent">
+  <form id="survey-form">
+    <label id="name-label">Name<label>
+    <input id="name" type="text" placeholder="Enter your name" required>
+    <br>
+    <label id="email-label">Email</label>
+    <input id="email" type="email" placeholder="Enter your email"required>
+    <br>
+    <label id="number-label">Number</label>
+    <input id="number" type="number" max="200" min="1" placeholder="Enter your number">
+    <br>
+    <label>What is your Hometown?</label>
+    <br>
+    <select id="dropdown" placeholder="Select an option">
+      <option>Kakamega</option>
+      <option>Kisumu</option>
+      <option>Nairobi</option>
+      <option>Narok</option>
+      <option>New York</option>
+    </select>
+    <br>
+    <legend>Do you like Programming?</legend>
+    <label>Yes</label>
+    <input type="radio" name="option" value="option">
+    <label>No</label>
+    <input type="radio" name="option" value="value">
+    <br>
+    <br>
+    <legend>Select your Most Preferred Career Path in Tech</legend>
+    <label>Networks Specialist</label>
+    <input type="checkbox" value="check">
+    <br>
+    <label>Software Engineer</label>
+    <input type="checkbox" value="check">
+    <br>
+    <label>Systems Admin</label>
+    <input type="checkbox" value="check">
+    <br>
+    <label>Security Specialist</label>
+    <input type="checkbox" value="check">
+    <br>
+    <legend>Additional Comments</legend>
+    <textarea placeholder="Enter any comments"></textarea>
+    <br>
+    <button id="submit">Submit</button>
+  </form>
+</div>
+</body>
+</html>
