@@ -1,1 +1,1 @@
-This folder contains projects that I have done in order to improve my profficiency with Webpage structuring and design.
+This folder contains projects from FreeCodeCamp that I have done in order to improve my proficiency in Webpage structuring and design.
