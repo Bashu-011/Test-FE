@@ -1,0 +1,1 @@
+This folder contains projects that I have done in order to improve my profficiency with Webpage structuring and design.
